@@ -1,0 +1,108 @@
+.head-text{
+    color: #0D92F4;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 6px;
+}
+.day{
+    color: gray;
+    text-transform: uppercase;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.todo-input{
+    background-color: whitesmoke;
+    border: none;
+    color: gray;
+    font-family: "Roboto", serif;
+}
+.todo-input::placeholder{
+    color: gray;
+    font-family: "Roboto", serif;
+}
+.todo-input:focus{
+    background-color: whitesmoke;
+    outline: none !important;
+    box-shadow: none;
+    color: #0D92F4;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+}
+
+.add-btn{
+    background-color: #0D92F4;
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.list-item{
+    background-color: whitesmoke;
+    border: none;
+    color: #0D92F4;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.list-item:focus{
+    background-color: whitesmoke;
+    outline: none !important;
+    box-shadow: none;
+    color: #0D92F4;
+    font-weight: 500;
+}
+.todos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.todos span{
+    margin: 0;
+    text-align: justify;
+    padding: 20px;
+}
+.todo{
+    color: #0D92F4;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+}
+.todo-strike{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", serif;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+input[type="checkbox"]:focus{
+    color: red;
+}
+.todo-check-icon{
+    font-size: 22px;
+    color: #0D92F4;
+}
+.todo-check-icon:hover{
+    color: green;
+}
+.todo-check-icon-change{
+    font-size: 22px;
+    color: green;
+}
+.todo-trash-icon{
+    font-size: 20px;
+    color: red;
+}
+.todo-trash-icon :hover{
+    color: #0D92F4;
+}
